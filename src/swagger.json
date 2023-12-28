@@ -2,8 +2,8 @@
   "openapi": "3.0.0",
   "info": {
     "version": "2.0.0",
-    "title": "WPPConnect API Rest",
-    "description": "Welcome to the wppconnect-server API documentation. This API provides a set of endpoints to interact with the wppconnect-server application, allowing you to build integrations and automate interactions with WhatsApp."
+    "title": "AdPro API Rest",
+    "description": "Welcome to the AdPro WAB API documentation. This API provides a set of endpoints to interact with the AdPro WAB application, allowing you to build integrations and automate interactions with WhatsApp."
   },
   "tags": [
     {
@@ -63,7 +63,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           },
           {
@@ -139,7 +139,7 @@
             "name": "session",
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             },
             "in": "query"
           },
@@ -178,7 +178,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -247,7 +247,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           },
           {
@@ -287,7 +287,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -318,7 +318,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -368,7 +368,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -398,7 +398,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           },
           {
@@ -436,7 +436,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -467,7 +467,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -503,7 +503,7 @@
                 }
               },
               "example": {
-                "phone": "5521999999999",
+                "phone": "972501234567",
                 "isGroup": false,
                 "all": false
               }
@@ -524,7 +524,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -572,7 +572,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -613,17 +613,17 @@
               "examples": {
                 "Send message to contact": {
                   "value": {
-                    "phone": "5521999999999",
+                    "phone": "972501234567",
                     "isGroup": false,
                     "isNewsletter": false,
-                    "message": "Hi from WPPConnect"
+                    "message": "Hi from AdPro"
                   }
                 },
                 "Send message to group": {
                   "value": {
                     "phone": "8865623215244578",
                     "isGroup": true,
-                    "message": "Hi from WPPConnect"
+                    "message": "Hi from AdPro"
                   }
                 }
               }
@@ -643,7 +643,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -678,7 +678,7 @@
               "examples": {
                 "Edit a message": {
                   "value": {
-                    "id": "true_5521999999999@c.us_3EB04FCAA1527EB6D9DEC8",
+                    "id": "true_972501234567@c.us_3EB04FCAA1527EB6D9DEC8",
                     "newText": "New text for message"
                   }
                 }
@@ -699,7 +699,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -746,7 +746,7 @@
               "examples": {
                 "Default": {
                   "value": {
-                    "phone": "5521999999999",
+                    "phone": "972501234567",
                     "isGroup": false,
                     "isNewsletter": false,
                     "filename": "file name lol",
@@ -771,7 +771,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -810,7 +810,7 @@
               "examples": {
                 "Default": {
                   "value": {
-                    "phone": "5521999999999",
+                    "phone": "972501234567",
                     "isGroup": true,
                     "path": "<path_file>"
                   }
@@ -832,7 +832,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -871,7 +871,7 @@
               "examples": {
                 "Default": {
                   "value": {
-                    "phone": "5521999999999",
+                    "phone": "972501234567",
                     "isGroup": true,
                     "path": "<path_file>"
                   }
@@ -893,7 +893,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -931,7 +931,7 @@
               "examples": {
                 "Default": {
                   "value": {
-                    "phone": "5521999999999",
+                    "phone": "972501234567",
                     "isGroup": false,
                     "message": "Reply to message",
                     "messageId": "<id_message>"
@@ -954,7 +954,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -1001,7 +1001,7 @@
               "examples": {
                 "Default": {
                   "value": {
-                    "phone": "5521999999999",
+                    "phone": "972501234567",
                     "isGroup": false,
                     "isNewsletter": false,
                     "filename": "file name lol",
@@ -1026,7 +1026,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -1073,7 +1073,7 @@
               "examples": {
                 "Default": {
                   "value": {
-                    "phone": "5521999999999",
+                    "phone": "972501234567",
                     "isGroup": false,
                     "isNewsletter": false,
                     "filename": "file name lol",
@@ -1098,7 +1098,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -1136,7 +1136,7 @@
               "examples": {
                 "Default": {
                   "value": {
-                    "phone": "5521999999999",
+                    "phone": "972501234567",
                     "isGroup": false,
                     "path": "<path_file>",
                     "quotedMessageId": "message Id"
@@ -1159,7 +1159,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -1194,7 +1194,7 @@
               "examples": {
                 "Default": {
                   "value": {
-                    "phone": "5521999999999",
+                    "phone": "972501234567",
                     "isGroup": false,
                     "base64Ptt": "<base64_string>"
                   }
@@ -1217,7 +1217,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -1247,7 +1247,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -1286,7 +1286,7 @@
               "examples": {
                 "Default": {
                   "value": {
-                    "phone": "5521999999999",
+                    "phone": "972501234567",
                     "isGroup": false,
                     "message": "Reply to message",
                     "messageId": "<id_message>"
@@ -1309,7 +1309,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -1347,7 +1347,7 @@
               "examples": {
                 "Default": {
                   "value": {
-                    "phone": "5521999999999",
+                    "phone": "972501234567",
                     "isGroup": false,
                     "url": "http://www.link.com",
                     "caption": "Text for describe link"
@@ -1370,7 +1370,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -1414,7 +1414,7 @@
               "examples": {
                 "Default": {
                   "value": {
-                    "phone": "5521999999999",
+                    "phone": "972501234567",
                     "isGroup": false,
                     "lat": "-89898322",
                     "lng": "-545454",
@@ -1439,7 +1439,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -1484,7 +1484,7 @@
               "examples": {
                 "Default": {
                   "value": {
-                    "phone": "5521999999999",
+                    "phone": "972501234567",
                     "isGroup": true,
                     "message": "Your text message",
                     "mentioned": ["@556593077171@c.us"]
@@ -1507,7 +1507,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -1535,7 +1535,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -1576,7 +1576,7 @@
               "examples": {
                 "Send list message": {
                   "value": {
-                    "phone": "5521999999999",
+                    "phone": "972501234567",
                     "isGroup": false,
                     "description": "Desc for list",
                     "buttonText": "Select a option",
@@ -1616,7 +1616,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -1654,7 +1654,7 @@
               "examples": {
                 "Send with custom items": {
                   "value": {
-                    "phone": "5521999999999",
+                    "phone": "972501234567",
                     "isGroup": false,
                     "items": [
                       {
@@ -1674,7 +1674,7 @@
                 },
                 "Send with product items": {
                   "value": {
-                    "phone": "5521999999999",
+                    "phone": "972501234567",
                     "isGroup": false,
                     "items": [
                       {
@@ -1688,7 +1688,7 @@
                 },
                 "Send with custom items and options": {
                   "value": {
-                    "phone": "5521999999999",
+                    "phone": "972501234567",
                     "isGroup": false,
                     "items": [
                       {
@@ -1722,7 +1722,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -1763,7 +1763,7 @@
               "examples": {
                 "Default": {
                   "value": {
-                    "phone": "5521999999999",
+                    "phone": "972501234567",
                     "isGroup": false,
                     "name": "Poll name",
                     "choices": ["Option 1", "Option 2", "Option 3"],
@@ -1789,7 +1789,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -1820,7 +1820,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           },
           {
@@ -1835,7 +1835,7 @@
             "name": "wid",
             "schema": {
               "type": "string",
-              "example": "5521999999999@c.us"
+              "example": "972501234567@c.us"
             },
             "in": "query"
           }
@@ -1888,7 +1888,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           },
           {
@@ -1926,7 +1926,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           },
           {
@@ -1935,7 +1935,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "5521999999999@c.us"
+              "example": "972501234567@c.us"
             }
           }
         ],
@@ -1965,7 +1965,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           },
           {
@@ -2026,7 +2026,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           },
           {
@@ -2079,7 +2079,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           },
           {
@@ -2132,7 +2132,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           },
           {
@@ -2171,7 +2171,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -2210,7 +2210,7 @@
               "examples": {
                 "Default": {
                   "value": {
-                    "participants": ["5521999999999"],
+                    "participants": ["972501234567"],
                     "name": "Group name"
                   }
                 }
@@ -2231,7 +2231,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -2277,7 +2277,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -2333,7 +2333,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -2370,7 +2370,7 @@
                 "Default": {
                   "value": {
                     "groupId": "<groupId>",
-                    "phone": "5521999999999"
+                    "phone": "972501234567"
                   }
                 }
               }
@@ -2390,7 +2390,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -2427,7 +2427,7 @@
                 "Default": {
                   "value": {
                     "groupId": "<groupId>",
-                    "phone": "5521999999999"
+                    "phone": "972501234567"
                   }
                 }
               }
@@ -2447,7 +2447,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -2484,7 +2484,7 @@
                 "Default": {
                   "value": {
                     "groupId": "<groupId>",
-                    "phone": "5521999999999"
+                    "phone": "972501234567"
                   }
                 }
               }
@@ -2504,7 +2504,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -2541,7 +2541,7 @@
                 "Default": {
                   "value": {
                     "groupId": "<groupId>",
-                    "phone": "5521999999999"
+                    "phone": "972501234567"
                   }
                 }
               }
@@ -2561,7 +2561,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -2606,7 +2606,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -2654,7 +2654,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -2705,7 +2705,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -2753,7 +2753,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -2801,7 +2801,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -2852,7 +2852,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -2901,14 +2901,14 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           },
           {
             "name": "phone",
             "schema": {
               "type": "string",
-              "example": "5521999999999"
+              "example": "972501234567"
             },
             "in": "query"
           },
@@ -3074,7 +3074,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -3170,7 +3170,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -3201,7 +3201,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -3232,7 +3232,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           },
           {
@@ -3241,7 +3241,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "5521999999999"
+              "example": "972501234567"
             }
           },
           {
@@ -3295,7 +3295,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -3325,7 +3325,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -3356,7 +3356,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -3386,7 +3386,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           },
           {
@@ -3395,7 +3395,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "5521999999999"
+              "example": "972501234567"
             }
           },
           {
@@ -3433,7 +3433,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           },
           {
@@ -3469,7 +3469,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           },
           {
@@ -3478,7 +3478,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "5521999999999"
+              "example": "972501234567"
             }
           }
         ],
@@ -3508,7 +3508,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           },
           {
@@ -3517,7 +3517,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "5521999999999"
+              "example": "972501234567"
             }
           }
         ],
@@ -3547,7 +3547,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           },
           {
@@ -3586,7 +3586,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           },
           {
@@ -3595,7 +3595,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "5521999999999"
+              "example": "972501234567"
             }
           },
           {
@@ -3642,7 +3642,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           },
           {
@@ -3651,7 +3651,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "5521999999999@c.us"
+              "example": "972501234567@c.us"
             }
           },
           {
@@ -3705,7 +3705,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -3743,7 +3743,7 @@
               "examples": {
                 "Default": {
                   "value": {
-                    "phone": "5521999999999",
+                    "phone": "972501234567",
                     "isGroup": false,
                     "value": true
                   }
@@ -3765,7 +3765,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -3795,7 +3795,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -3827,7 +3827,7 @@
               "examples": {
                 "Default": {
                   "value": {
-                    "phone": "5521999999999",
+                    "phone": "972501234567",
                     "isGroup": false
                   }
                 }
@@ -3848,7 +3848,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -3878,7 +3878,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -3910,7 +3910,7 @@
               "examples": {
                 "Default": {
                   "value": {
-                    "phone": "5521999999999",
+                    "phone": "972501234567",
                     "isGroup": false
                   }
                 }
@@ -3931,7 +3931,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -3961,7 +3961,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -4008,7 +4008,7 @@
               "examples": {
                 "Default": {
                   "value": {
-                    "phone": "5521999999999",
+                    "phone": "972501234567",
                     "isGroup": false,
                     "messageId": "<messageId>"
                   }
@@ -4030,7 +4030,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -4086,7 +4086,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -4124,7 +4124,7 @@
               "examples": {
                 "Default": {
                   "value": {
-                    "phone": "5521999999999",
+                    "phone": "972501234567",
                     "isGroup": false,
                     "messageId": "<messageId>"
                   }
@@ -4146,7 +4146,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -4181,7 +4181,7 @@
               "examples": {
                 "Default": {
                   "value": {
-                    "phone": "5521999999999",
+                    "phone": "972501234567",
                     "isGroup": false
                   }
                 }
@@ -4202,7 +4202,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           },
           {
@@ -4213,7 +4213,7 @@
               "properties": {
                 "phone": {
                   "type": "string",
-                  "example": "5521999999999"
+                  "example": "972501234567"
                 },
                 "isGroup": {
                   "type": "boolean",
@@ -4262,7 +4262,7 @@
               "examples": {
                 "Default": {
                   "value": {
-                    "phone": "5521999999999",
+                    "phone": "972501234567",
                     "state": true
                   }
                 }
@@ -4283,7 +4283,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -4324,10 +4324,10 @@
               "examples": {
                 "Default": {
                   "value": {
-                    "phone": "5521999999999",
+                    "phone": "972501234567",
                     "isGroup": false,
                     "name": "Name of contact",
-                    "contactsId": ["5521999999999"]
+                    "contactsId": ["972501234567"]
                   }
                 }
               }
@@ -4347,7 +4347,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -4388,7 +4388,7 @@
               "examples": {
                 "Default": {
                   "value": {
-                    "phone": "5521999999999",
+                    "phone": "972501234567",
                     "isGroup": false,
                     "time": 1,
                     "type": "hours"
@@ -4411,7 +4411,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -4443,7 +4443,7 @@
               "examples": {
                 "Default": {
                   "value": {
-                    "phone": "5521999999999",
+                    "phone": "972501234567",
                     "isGroup": false
                   }
                 }
@@ -4464,7 +4464,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -4502,7 +4502,7 @@
               "examples": {
                 "Default": {
                   "value": {
-                    "phone": "5521999999999",
+                    "phone": "972501234567",
                     "isGroup": false,
                     "chatstate": "1"
                   }
@@ -4525,7 +4525,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -4563,7 +4563,7 @@
               "examples": {
                 "Default": {
                   "value": {
-                    "phone": "5521999999999",
+                    "phone": "972501234567",
                     "isGroup": false,
                     "value": true
                   }
@@ -4585,7 +4585,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -4623,7 +4623,7 @@
               "examples": {
                 "Default": {
                   "value": {
-                    "phone": "5521999999999",
+                    "phone": "972501234567",
                     "isGroup": false,
                     "value": true
                   }
@@ -4645,7 +4645,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -4686,7 +4686,7 @@
               "examples": {
                 "Default": {
                   "value": {
-                    "phone": "5521999999999",
+                    "phone": "972501234567",
                     "isGroup": false,
                     "duration": 5,
                     "value": true
@@ -4709,7 +4709,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -4744,7 +4744,7 @@
               "examples": {
                 "Default": {
                   "value": {
-                    "messageId": "5521999999999",
+                    "messageId": "972501234567",
                     "star": true
                   }
                 }
@@ -4765,7 +4765,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           },
           {
@@ -4811,7 +4811,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           },
           {
@@ -4857,7 +4857,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -4909,7 +4909,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           },
           {
@@ -4917,7 +4917,7 @@
             "in": "query",
             "schema": {
               "type": "string",
-              "example": "5521999999999"
+              "example": "972501234567"
             }
           },
           {
@@ -4958,7 +4958,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           },
           {
@@ -4966,7 +4966,7 @@
             "in": "query",
             "schema": {
               "type": "string",
-              "example": "5521999999999"
+              "example": "972501234567"
             }
           },
           {
@@ -5007,7 +5007,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -5086,7 +5086,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -5147,7 +5147,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -5202,7 +5202,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -5261,7 +5261,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -5320,7 +5320,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -5379,14 +5379,14 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           },
           {
             "name": "phone",
             "schema": {
               "type": "string",
-              "example": "5521999999999"
+              "example": "972501234567"
             },
             "in": "query"
           },
@@ -5436,7 +5436,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -5495,7 +5495,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -5556,7 +5556,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -5611,7 +5611,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -5670,7 +5670,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           },
           {
@@ -5747,7 +5747,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -5802,7 +5802,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           },
           {
@@ -5888,7 +5888,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -5941,7 +5941,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -5994,7 +5994,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -6061,7 +6061,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -6114,7 +6114,7 @@
               "examples": {
                 "Default": {
                   "value": {
-                    "chatIds": ["5521999999999"],
+                    "chatIds": ["972501234567"],
                     "options": [
                       {
                         "labelId": "76",
@@ -6144,7 +6144,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -6174,7 +6174,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -6204,7 +6204,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           },
           {
@@ -6243,7 +6243,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           },
           {
@@ -6252,7 +6252,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "5521999999999"
+              "example": "972501234567"
             }
           }
         ],
@@ -6302,7 +6302,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           },
           {
@@ -6311,7 +6311,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "5521999999999"
+              "example": "972501234567"
             }
           }
         ],
@@ -6341,7 +6341,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           },
           {
@@ -6350,7 +6350,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "5521999999999"
+              "example": "972501234567"
             }
           }
         ],
@@ -6381,7 +6381,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           },
           {
@@ -6390,7 +6390,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "5521999999999"
+              "example": "972501234567"
             }
           },
           {
@@ -6427,7 +6427,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           },
           {
@@ -6436,7 +6436,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "5521999999999"
+              "example": "972501234567"
             }
           }
         ],
@@ -6466,7 +6466,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -6496,7 +6496,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -6531,7 +6531,7 @@
               "examples": {
                 "Default": {
                   "value": {
-                    "phone": "5521999999999",
+                    "phone": "972501234567",
                     "isGroup": false
                   }
                 }
@@ -6552,7 +6552,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -6587,7 +6587,7 @@
               "examples": {
                 "Default": {
                   "value": {
-                    "phone": "5521999999999",
+                    "phone": "972501234567",
                     "isGroup": false
                   }
                 }
@@ -6608,7 +6608,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -6638,7 +6638,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -6668,7 +6668,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -6698,7 +6698,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           },
           {
@@ -6739,7 +6739,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           },
           {
@@ -6805,7 +6805,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -6861,7 +6861,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           },
           {
@@ -6899,7 +6899,7 @@
                 "website": {
                   "type": "array",
                   "example": [
-                    "https://www.wppconnect.io",
+                    "https://www.AdPro.io",
                     "https://www.teste2.com.br"
                   ],
                   "items": {
@@ -6954,7 +6954,7 @@
                   "$not_a_biz": false
                 },
                 "website": [
-                  "https://www.wppconnect.io",
+                  "https://www.AdPro.io",
                   "https://www.teste2.com.br"
                 ]
               }
@@ -6974,7 +6974,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           },
           {
@@ -6982,7 +6982,7 @@
             "in": "query",
             "schema": {
               "type": "string",
-              "example": "5521999999999@c.us"
+              "example": "972501234567@c.us"
             }
           }
         ],
@@ -7009,7 +7009,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           },
           {
@@ -7018,7 +7018,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "true_5521999999999@c.us_3EB0E69ACC5B396B21F2FE"
+              "example": "true_972501234567@c.us_3EB0E69ACC5B396B21F2FE"
             }
           }
         ],
@@ -7124,7 +7124,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -7154,7 +7154,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -7211,7 +7211,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -7271,7 +7271,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -7323,7 +7323,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -7379,7 +7379,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -7435,7 +7435,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -7491,7 +7491,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -7547,7 +7547,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           },
           {
@@ -7587,7 +7587,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           },
           {
@@ -7662,7 +7662,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           },
           {
@@ -7736,7 +7736,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           },
           {
@@ -7773,7 +7773,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           },
           {
@@ -7809,7 +7809,7 @@
             "required": true,
             "schema": {
               "type": "string",
-              "example": "NERDWHATS_AMERICA"
+              "example": "YOUR_SESSION"
             }
           }
         ],
@@ -7902,7 +7902,7 @@
     "schemas": {
       "session": {
         "type": "string",
-        "schema": "NERDWHATS_AMERICA"
+        "schema": "YOUR_SESSION"
       }
     },
     "securitySchemes": {
